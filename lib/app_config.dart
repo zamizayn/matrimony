@@ -8,9 +8,9 @@ class AppConfig {
   static String purshase_code = '';
 
   // configure this
-  static const bool HTTPS = true;
+  static const bool HTTPS = false;
 
-  static const DOMAIN_PATH = "domain.com"; //localhost
+  static const DOMAIN_PATH = "117.200.73.2:7075/matrimony"; //localhost
 
   // do not configure these below
   static const String API_ENDPATH = "api";
